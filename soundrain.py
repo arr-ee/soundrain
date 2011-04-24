@@ -11,6 +11,7 @@ from urlgrabber.grabber import URLGrabber
 import urlgrabber.progress as progress
 
 # TODO
+# Check if we are allowed to download file and use dload link instead of streaming one
 # Concurrent download AND page retrieving
 # Page caching
 # User-defined file naming scheme
