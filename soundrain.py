@@ -161,9 +161,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     targets = []
-    output_path = args.output
-
-    print args
 
     for url in args.urls:
         parsed_url = urlparse.urlparse(str(url))
